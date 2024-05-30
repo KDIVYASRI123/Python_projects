@@ -1,0 +1,77 @@
+python2023begin1
+
+AddMe:
+n1=int(input())
+n2=int(input())
+print(n1+n2)
+
+Even/Odd:
+n=int(input())
+if(n%2==0):
+    print("Even")
+else:
+    print("Odd")
+
+Bigger or Smaller or Equal:
+n1=int(input())
+n2=int(input())
+if(n1==n2):
+    print("Equal")
+elif(n1>n2):
+    print("Big")
+else:
+    print("Small")
+
+Product of three positive numbers:
+n1=int(input())
+n2=int(input())
+n3=int(input())
+if(n1!=7 and n2!=7 and n3!=7):
+    print(n1*n2*n3)
+if(n1==7):
+    print(n2*n3)
+if(n2==7):
+    print(n3)
+if(n3==7):
+    print("-1")
+
+Salary Hike Simple:
+n1=int(input())
+n2=int(input())
+if(n2==3):
+    print(int(n1+(n1*0.15)))
+if(n2==4):
+    print(int(n1+(n1*0.07)))
+if(n2==5):
+    print(int(n1+(n1*0.05)))
+
+Assignment 18 Infytq:
+n1=int(input())
+n2=input()
+if(n2=="Euro"):
+    print(n1*0.01417)
+elif(n2=="British Pound"):
+    print(n1*0.0100)
+elif(n2=="Australian Dollar"):
+    print(n1*0.02140)
+elif(n2=="Canadian Dollar"):
+    print(n1*0.02027)
+else:
+    print("Invalid currency name")
+
+Assignment 19 Infyq:
+n1=input()
+n2=int(input())
+n3=int(input())
+ans=n3-3
+ans1=ans-3
+if(ans1>=0):
+    op=9+(ans1*6)
+else:
+    op=ans*3
+if(n1=="V"):
+    print((120*n2)+op)
+elif(n1=="N"):
+    print((150*n2)+op)
+else:
+    print("-1")
